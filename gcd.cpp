@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//making some more changes
 //maing some changes
 int findGCD(int n, int m) //naive
 {
