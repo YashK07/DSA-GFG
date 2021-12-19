@@ -1,3 +1,3 @@
 # DSA-GFG
 
-All important DSA Problem (from Geeks for Geeks) and solutions. 
+All important DSA Problems (from Geeks for Geeks) and solutions. 
