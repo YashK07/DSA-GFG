@@ -4,14 +4,22 @@ using namespace std;
 //maximum value of arr[j] - arr[i]; j>i
 int maxDiff(int arr[],int n)
 {
-  int smallest = INT_MAX;
-  int largest = INT_MIN;
+  int m = arr[0];
+  int diff = arr[1] - arr[0];
 
-  for(int i = 0;i<n;i++)
+  for(int j = 1;j<n;j++)
   {
-    if(arr[i]<smallest && arr[i])
-
-
-
+    diff = std::max(arr[j] - m,diff);
+    m = std::min(m,arr[j]);
   }
+  return diff;
+}
+
+
+int main()
+{
+  int arr[5] = {3,1,5,2,4};
+  int ans = maxDiff(arr,5);
+
+  cout<<ans;
 }
