@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+//kadane's algorithm!!!
 int subarrayMaxSum(int arr[],int n)
 {
   int sum = arr[0];
